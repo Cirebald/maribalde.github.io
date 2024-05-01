@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="d-flex container-fluid justify-content-end ">
+        <div id="side_bar" class="col-2 bg-secondary">
+            
+        </div>
+        <div id="content" class="col-10  card">
+            <div class="card-header  d-flex justify-content-between ">
+                <div class="d-flex">
+                    <button id="menu" class=" btn btn-sm mx-2 btn-primary" >Fermer</button>
+                <h3 class="mx-2">Todo list</h3>
+                </div>
+                <div class="d-flex ">
+                    <input id="tache" class="form-controller " type="text" placeholder="nouvelle tache">
+                    <button id="btn-ajouter" class="btn btn-primary btn-sm mx-2">Ajouter</button>
+                </div>
+                
+
+            </div>
+            <div class="card-body bg-info">
+               <table class="table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>NOM</th>
+                        <th>ACTION</th>
+
+                    </tr>
+
+                </thead>
+                <tbody id="liste_taches">
+                    
+                </tbody>
+               </table> 
+            </div>
+        </div>
+        
+    </div>
+    <script src="tp4.js"></script>
+    <script src="tache.js"></script>
+</body>
+</html>
